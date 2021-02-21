@@ -1,4 +1,6 @@
 #!/bin/bash
+# routes incoming/outgoing traffic through one port and
+# allows for source IP spoofing through ports 11211, 123, 53
 IPT="/sbin/iptables"
 
 # Server IP
